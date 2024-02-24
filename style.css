@@ -1,0 +1,547 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ny-party{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: black;
+    border-radius: 8px;
+}
+
+
+.ny-img img{
+    margin: auto;
+    width: 100%;
+    opacity: 60%;
+}
+
+
+.ny-text{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    text-shadow: 6px 5px 5px  rgb(0, 0, 0);
+    width: 100%; 
+}
+
+
+.offers{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.offers img{
+    width: 50%;
+}
+
+
+.offers h2, h6{
+    color: rgb(238, 0, 0);
+}
+
+
+.join-us{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+
+
+.join-us img{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.658);
+}
+
+
+
+
+.join-text{
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    width: 80%;
+    font-size: 30px;
+    transform: translateY(50%);
+    left: 5%;
+}
+
+
+
+
+.para-1{
+    font-size: 16px;
+    width: 80%;
+}
+
+
+.join-text a{
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: rgba(252, 2, 2, 0.664);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.location{
+    background-color: rgba(255, 68, 0, 0.596);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 25%;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 30px; 
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.473);
+}
+
+
+
+.upcoming{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    font-size: 20px;
+    padding: 5%;
+    margin: auto;
+    
+    
+}
+
+
+.coming-soon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33.30%;
+    margin: auto;
+}
+
+
+.up-img img{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.up-img{
+    background-color: rgb(255, 0, 0);
+    padding: 3%;
+    border-radius: 50%;
+}
+
+
+.ny-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33.3%;
+}
+
+
+.ny-2 img{
+    width: 20%;
+}
+
+
+
+.holiday-sale{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.off{
+    font-size: 70px;
+    color: red;
+}
+
+.holiday-sale h2{
+    font-size: 50px;
+}
+
+
+.holiday-sale{
+    margin: auto;
+}
+
+
+.holiday-img{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.discount{
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+}
+
+
+.girl{
+    position: absolute;
+    left: 40%;
+}
+
+
+.girl img{
+    border-radius: 20px;
+}
+
+.gift-box {
+    background-color: red;
+    width: 70%;
+    height: auto;
+    /* margin: auto; */
+    /* margin-top: 20%; */
+    text-align: center;
+}
+
+
+.gift-box img{
+    position: absolute;
+    left: 20%;
+}
+
+
+
+.red-box{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(228, 158, 158);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 12.2%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.397);
+}
+
+
+
+.portfolio{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+.portfolio p{
+    color: red;
+}
+
+
+
+.folio-img{
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px 30px;
+    justify-content: center;
+}
+
+
+.folio-img img{
+    width: 100%;
+}
+
+
+
+.subscribe{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(253, 222, 227);
+    width: 60%;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding: 5% 0%;
+}
+
+
+
+.subscribe input{
+    width: 30%;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: rgb(255, 254, 254);
+}
+
+
+button{
+    height: 50px;
+    width: 10%;
+    border-radius: 0px 50px 50px 0px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    right: 5%;
+
+}
+
+
+footer{
+    background-color:  rgb(15, 15, 37);
+    width: 100%;
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    max-width: 1005;
+    gap: 25%;
+    margin-top: 100px;
+    color: white;
+    font-size: 16px;
+    padding: 5%;
+}
+
+
+.phone a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.phone a:hover{
+    color: yellow;
+}
+
+
+.social-site{
+    justify-content: center;
+    background-color: rgb(15, 15, 37);
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    border-top: .5px solid gray;
+    border-bottom: .5px solid gray; 
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.social-site a:hover{
+    background-color: rgba(45, 45, 112, 0.37);
+    border-radius: 10px;
+}
+
+
+
+.copy-right{
+    display: flex;
+    gap: 25%;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+
+
+.copy-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.copy-right a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+/* mobile screen */
+
+@media only screen and (max-width: 600px) {
+    
+    .ny-text{
+        font-size: 16px;
+        color: rgb(248, 248, 248);
+    }
+
+
+    .offers{
+        margin-top: 50px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+    .offers img{
+        width: 80%;
+    }
+
+
+    .join-us{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
+    .join-us img{
+        width: 100%;
+        margin: auto;
+        padding: 2%;
+    }
+
+
+    .join-text{
+        font-size: 10px;
+        left: 5%;
+    }
+
+
+    .para-1{
+        width: 80%;
+        font-size: 10px;
+    }
+
+
+    .join-text a{
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+    .location{
+        margin-top: 35%;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+
+    .up-img img{
+        padding: 4px;
+    }
+
+
+    .up-img{
+        border-radius: 50%;
+    }
+
+
+    .upcoming{
+        font-size: 12px;
+    }
+
+
+    .holiday-img img{
+        height: 200px;
+    }
+
+
+    .discount{
+        left: 20%;
+    }
+
+
+    .gift-box img{
+        transform: translateY(-150px);
+        width: 75%;
+        left: 10%;
+    }
+
+
+    .red-box{
+        width: 80%;
+        margin-top: 100px;
+    }
+
+
+
+    .folio-img{
+        gap: 10px;
+        padding: 20px;
+    }
+
+
+    .subscribe{
+        width: 80%;
+        font-size: 12px;
+    }
+
+
+    .subscribe img{
+        width: 20%;
+    }
+
+
+    .subscribe input{
+        width: 70%;
+    }
+    
+
+    button{
+        font-size: 10px;
+        width: 20%;
+        right: 7%;
+    }
+
+
+
+    footer{
+        font-size: 12px;
+    }
+
+
+    .phone, .address{
+        font-size: 12px;
+    }
+
+
+    .contact{
+        gap: 70px;
+    }
+
+
+    .social-site img{
+        width: 50%;
+    }
+    
+}
